@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Seq2_With_Strict_Contiguity" type="Multirun" singleton="false" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="false" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
+    <runConfiguration name="CSVProducer" type="Application" />
+    <runConfiguration name="com.github.fhuss.kafka.streams.cep.Seq2_With_Strict_Contiguity" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>

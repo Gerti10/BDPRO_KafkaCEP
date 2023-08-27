@@ -62,7 +62,7 @@ public class CSVProducer {
         KafkaProducer<String, GeneralEvent> generalEventProducer = new KafkaProducer<>(props);
         LOG.info("General Event Producer created");
         LOG.info("Generating the events");
-        for (int i = 0; i < 5000; i++){
+        for (int i = 0; i < 1; i++){
             for (Object dataPoint : dataPoints){
                 QnVEvent qnVEvent = (QnVEvent) dataPoint;
                 qnVEvent.point = qnVEvent.point.replace("(", " ");
