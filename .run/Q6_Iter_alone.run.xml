@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Q6_Iter_alone" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.github.fhuss.kafka.streams.cep.Q6_Iter" />
+    <module name="kafka-streams-cep-example" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.github.fhuss.kafka.streams.cep.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2" />
+  </configuration>
+</component>
