@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CSVProducer" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.github.fhuss.kafka.streams.cep.CSVProducer" />
+    <module name="kafka-streams-cep-example" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;example/src/main/resources/QnViter10.csv&quot; 10000" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.github.fhuss.kafka.streams.cep.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2" />
+  </configuration>
+</component>
